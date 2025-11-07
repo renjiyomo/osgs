@@ -18,5 +18,17 @@
     <p>Learn, Engage, Comprehend, Succeed <br> SA LECS ARAL, PAGBASA ANG PUHUNAN PARA SA MAGANDANG KINABUKASAN!</p>
     <a href="login/login.php" class="login-btn">LOG IN</a>
   </div>
+
+<div id="loading-screen">
+  <img src="assets/images/lecs-logo no bg.png" alt="Loading Logo" class="loading-logo">
+</div>
+
+<script>
+window.addEventListener("load", () => {
+  const loader = document.getElementById("loading-screen");
+  setTimeout(() => loader.classList.add("fade-out"), 500); // small delay for smooth fade
+});
+</script>
+
 </body>
 </html>
