@@ -100,7 +100,7 @@ if (!file_exists(__DIR__ . "/" . $imagePath)) {
 
             <div id="topMenu" class="top-menu" aria-hidden="true">
                 <a class="line" href="teacherProfile.php">Profile</a>
-                <a href="logout.php">Logout</a>
+                <a href="../api/logout.php">Logout</a>
             </div>
         </div>
     </div>
